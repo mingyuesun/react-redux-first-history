@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { Route, Routes, Link } from 'react-router-dom'
-import { HistoryRouter } from 'redux-first-history/rr6'
+import { HistoryRouter } from './redux-first-history/rr6'
 import { Provider } from 'react-redux'
 import { store, history } from './store'
 import Counter from './components/Counter'

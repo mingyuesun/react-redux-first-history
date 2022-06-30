@@ -1,6 +1,6 @@
 import React from 'react'
 import { useDispatch } from 'react-redux'
-import { push } from 'redux-first-history'
+import { push } from '../redux-first-history'
 
 export default function Home() {
 	const dispatch = useDispatch()
